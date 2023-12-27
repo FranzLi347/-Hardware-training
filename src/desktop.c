@@ -112,6 +112,7 @@ void clear(){
 
 void render_desktop_application()
 {   
+    clear();
     show_bmp("../static/desktop_img.bmp", 0, 0, 1);
     show_text("欢迎使用", 260, 130, 60, 0xF5F5F5);
 
